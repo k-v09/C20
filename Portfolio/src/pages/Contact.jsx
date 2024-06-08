@@ -12,7 +12,7 @@ const Contact = () => {
   const handleBlur = (e) => {
     const { name, value } = e.target;
     if (!value) {
-      setErrors({ ...errors, [name]: `${name} is required` });
+      setErrors({ ...errors, [name]: `   Error: ${name} is required` });
     } else {
       const newErrors = { ...errors };
       delete newErrors[name];
@@ -29,7 +29,7 @@ const Contact = () => {
     <section>
       <form onSubmit={handleSubmit}>
         <div>
-          <label htmlFor="name">Name</label>
+          <label htmlFor="name">Name: </label>
           <input
             type="text"
             name="name"
@@ -40,7 +40,7 @@ const Contact = () => {
           {errors.name && <span>{errors.name}</span>}
         </div>
         <div>
-          <label htmlFor="email">Email</label>
+          <label htmlFor="email">Email: </label>
           <input
             type="email"
             name="email"
@@ -51,7 +51,7 @@ const Contact = () => {
           {errors.email && <span>{errors.email}</span>}
         </div>
         <div>
-          <label htmlFor="message">Message</label>
+          <label htmlFor="message">Message: </label>
           <textarea
             name="message"
             value={form.message}
