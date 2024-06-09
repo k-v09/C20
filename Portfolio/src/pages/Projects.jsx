@@ -3,14 +3,20 @@ import Project from '../components/Project';
 
 const projects = [
   {
-    title: 'Project 1',
-    deployedLink: 'http://example.com',
-    repoLink: 'http://github.com/example',
-    image: 'path/to/image.jpg'
+    title: 'Readme Generator',
+    deployedLink: '//github.com/k-v09/ReadMe-Generator',
+    repoLink: '//github.com/k-v09/ReadMe-Generator',
+    image: '/src/assets/readmeGen.png'
   },
+  {
+    title: '',
+    deployedLink: '',
+    repoLink: '',
+    image: ''
+  }
 ];
 
-const Portfolio = () => (
+const Projects = () => (
   <section>
     {projects.map((project, index) => (
       <Project key={index} {...project} />
@@ -18,4 +24,4 @@ const Portfolio = () => (
   </section>
 );
 
-export default Portfolio;
+export default Projects;

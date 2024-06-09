@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 const Contact = () => {
   const [form, setForm] = useState({ name: '', email: '', message: '' });
   const [errors, setErrors] = useState({});
+  const [submitted, setSubmitted] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -22,12 +23,15 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission
+    setForm({name: '', email: '', message: ''})
+    setSubmitted(true);
+    setTimeout(() => setSubmitted(false), 3000);
+
   };
 
   return (
     <section>
-      <form onSubmit={handleSubmit}>
+      <form action="mailto:noah.sehman@gmail.com" method="post" encType="text/plain" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name: </label>
           <input
@@ -62,6 +66,7 @@ const Contact = () => {
         </div>
         <button type="submit">Submit</button>
       </form>
+      {submitted && <p>Message Sent!</p>}
     </section>
   );
 };
