@@ -1,8 +1,20 @@
-# React + Vite
+# Portfolio Site
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+My revamped personal website
 
-Currently, two official plugins are available:
+## Table of Contents
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Questions](#questions)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Usage
+Run using localhost or use the deployed link
+
+## Contributing
+send me a message through the contact page and then we'll talk
+
+## Questions
+If you have any questions, please reach out to me via:
+- GitHub: [k-v09](https://github.com/k-v09)
+- Email: noah.sehman@gmail.com
