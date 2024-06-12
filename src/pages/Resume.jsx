@@ -13,7 +13,7 @@ const Resume = () => (<>
       <li>Problem Solver</li>
       <li>Analytical Mindset</li>
     </ul>
-    <a href="../assets/res.pdf" download style={{paddingLeft: '45%'}}>Download Resume</a>
+    <a href="/res.pdf" download style={{paddingLeft: '45%'}}>Download Resume</a>
   </section>
   </>);
 
