@@ -3,6 +3,13 @@ import Project from '../components/Project';
 
 const projects = [
   {
+    title: 'Horse Power',
+    deployedLink: 'https://horse-power.netlify.app/',
+    repoLink: 'https://github.com/k-v09/Horse-Power',
+    description: 'My final project of the coding bootcamp, horsepower aims to be the ultimate fitness tool for reaching your goals. There will be some future development required to make this the app I originally envisioned, but for now I\'m happy.',
+    image: 'src/assets/background.jpg'
+  },
+  {
     title: 'Trudge',
     deployedLink: 'https://ryans-hub.github.io/GivHub/',
     repoLink: 'https://github.com/ryans-hub/GivHub',
