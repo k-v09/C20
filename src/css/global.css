@@ -114,6 +114,12 @@ main {
     flex-grow: 1;
 }
 
+footer p{
+    text-align: center;
+    color: var(--lsage);
+    font-size: smaller;
+}
+
 .project {
     margin: 10px;
     padding: 12px;
@@ -128,4 +134,84 @@ main {
 .resSkills li {
     padding-left: 12px;
     padding-right: 12px;
+}
+
+.homely {
+    display: flex;
+    flex-direction: row;
+}
+
+p {
+    color: var(--cream);
+}
+
+.left {
+    float: left;
+    margin-right: 25px;
+}
+
+.right {
+    float: right;
+    margin-left: 25px;
+}
+
+.homeMain {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.xtran {
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    clear: both;
+    float: left;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: var(--lseafoam);
+    border-radius: 10px;
+}
+
+.ff {
+    margin-bottom: 32px;
+    color: var(--cream);
+}
+.ff h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+.ff img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.submain {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: fit-content;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: (--cream);
+    border-radius: 25px;
+}
+.submain img {
+    max-height: 200px;
+    max-width: fit-content;
+}
+.submain h2 {
+    color: var(--cream);
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+#sm1 {
+    background-color: var(--navy);
+    margin-top: 20px;
+}
+#sm2 {
+    background-color: var(--bluegreen);
+}
+#sm3 {
+    background-color: var(--seafoam);
 }

@@ -2,7 +2,6 @@ import React from 'react';
 
 const About = () => (
   <section>
-    <h3>Sample of the goods:</h3>
     <img src="/theDream.jpeg" alt="Developer" />
     <p>
       I started programming in my freshman year of high school and for the rest of 
