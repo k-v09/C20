@@ -121,14 +121,36 @@ footer p{
 }
 
 .project {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 10px;
     padding: 12px;
     background-color: var(--cry);
+    color: var(--navy);
     border-radius: 10px;
     border: 2px solid var(--navy);
 }
+.project h3 {
+    font-size: 48px;
+    margin-bottom: 0;
+}
 .project a {
-    color: inherit;
+    color: var(--navy);
+}
+.project p {
+    color: var(--navy);
+    text-align: center;
+    font-weight: bold;
+}
+.project img {
+    width: 75%;
+}
+#gft {
+    padding: 10px;
+    border-width: 5px;
+    border-color: #000;
+    border-style: double;
 }
 
 .resSkills li {

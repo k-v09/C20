@@ -34,6 +34,32 @@ const projects = [
 
 const Projects = () => (
   <section>
+    <div className="project">
+      <h3>Geometric Fourier Transform</h3>
+      <img src="ReverseFourier.png" alt="Reverse Fourier Formula"  id='gft'/>
+      <p>
+        My first ever completed math project, the Reverse Fourier is a single formula which allows 
+        sine wave harmonic addition to be expressed as a single wave with sin(x) factored out. 
+        I'm not quite sure how useful it is, but I am sure that this will always have a special 
+        place in my heart. One of my biggest passions is making subjects often seen as out of reach 
+        more approachable. This geometric adaptation of the fourier transform allows for a deeper 
+        understanding of how sound works to be given to those who otherwise wouldn't be able to do 
+        so.<br/><br/>
+      <a>Paper on This Project in the Works</a>
+      </p>
+    </div>
+    <div className="project">
+      <h3>Instantaneous Interaction</h3>
+      <img src="page-0.jpg" alt="Instanteous Interaction" />
+      <p>
+        For my senior research project, I branched out from theoretical mathematics to theoretical 
+        physics. Though I have never been formally trained in relativity theory or quantum mechanics, 
+        I was determined to tackle a subject that not only falls into those fields, but also pushed 
+        the limits of what was achievable on my own. Attached here is the shortened version of my 
+        paper, "Instantaneous Interaction With Time."<br/><br/>
+      <a href="/Instantaneous Interaction With Time copy.pdf">View Paper</a> | <a href="/Instantaneous Interaction With Time copy.pdf" download>Download Paper</a>
+      </p>
+    </div>
     {projects.map((project, index) => (
       <Project key={index} {...project} />
     ))}
