@@ -152,6 +152,9 @@ footer p{
     border-color: #000;
     border-style: double;
 }
+#ii {
+    border: 2px solid #000;
+}
 
 .resSkills li {
     padding-left: 12px;

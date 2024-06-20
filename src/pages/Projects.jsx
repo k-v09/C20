@@ -50,7 +50,7 @@ const Projects = () => (
     </div>
     <div className="project">
       <h3>Instantaneous Interaction</h3>
-      <img src="page-0.jpg" alt="Instanteous Interaction" />
+      <img src="page-0.jpg" alt="Instanteous Interaction"  id='ii'/>
       <p>
         For my senior research project, I branched out from theoretical mathematics to theoretical 
         physics. Though I have never been formally trained in relativity theory or quantum mechanics, 

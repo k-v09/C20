@@ -31,7 +31,7 @@ const Contact = () => {
 
   return (
     <section>
-      <form action="mailto:noah.sehman@gmail.com" method="post" encType="text/plain" onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name: </label>
           <input
