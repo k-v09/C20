@@ -9,7 +9,7 @@ const Header = () => (
         <li><NavLink exact to="/" >Home</NavLink></li>
         <li><NavLink to="/about">About Me</NavLink></li>
         <li><NavLink to="/projects">Projects</NavLink></li>
-        <li><NavLink to="/contact">Contact</NavLink></li>
+        {/* <li><NavLink to="/contact">Contact</NavLink></li> */}
         <li><NavLink to="/resume">Resume</NavLink></li>
       </ul>
     </nav>
