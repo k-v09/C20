@@ -5,17 +5,17 @@ const Home = () => (<body className="homely">
         <article className="ff">
             <h3>Black Belt</h3>
             <img src="/bbi.png" alt="BB Icon"/>
-            <p>I started martial arts at age six and still make it a major part of my life. I've studied arts from all over the world! For a while I wanted to be a UFC fighter. Though my priorities have since changed drastically.</p>
+            <p>I started martial arts at age six and still make it a major part of my life. I've studied arts from all over the world! For a while I wanted to be a UFC fighter, though my priorities have since changed drastically.</p>
         </article>
         <article className="ff">
             <h3>Physicist</h3>
             <img src="/phi.png" alt="Physics Icon"/>
-            <p>Physics has been a major passion of mine my whole life. Most of my freetime is dedicated to learning more about the subjact and I even wrote my senior research paper about relativity!</p>
+            <p>Physics has been a major passion of mine my whole life. Most of my freetime is dedicated to learning more about the subject and I even wrote my senior research paper about relativity!</p>
         </article>
         <article className="ff">
             <h3>Nerd</h3>
             <img src="/ndi.png" alt="Nerd Icon"/>
-            <p>From Starwars lore to Smash Bros frame data: I've spent way too much time memorizing information I'll never use.</p>
+            <p>From Starwars lore to Smash Bros frame data, I've spent way too much time memorizing information I'll never use.</p>
         </article>
     </aside>
     <main className="homeMain">
@@ -37,7 +37,7 @@ const Home = () => (<body className="homely">
             <img src="/theDream.jpeg" alt="Keytar guy" className="right"/>
             <h2>Musician</h2>
             <p>
-                Of all things listed here, music is the most important. It is a critical form of expression (whether that's personal or social). I learned my first instrument, drums, at age seven. After some time, learned many others like bass, guitar, piano, and most of the variations of those (organ, accordion, etc.). 
+                Of all things listed here, music is the most important. It is a critical form of expression (whether that's personal or social). I learned my first instrument, drums, when I was seven. After some time, I learned many others like bass, guitar, piano, and most of the variations of those (organ, accordion, etc.). 
             </p>
         </section>
     </main>

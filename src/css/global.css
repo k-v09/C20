@@ -154,9 +154,15 @@ footer p{
     border: 2px solid #000;
 }
 
+.resSkills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .resSkills li {
     padding-left: 12px;
     padding-right: 12px;
+    color: var(--cream);
 }
 
 .homely {
@@ -237,4 +243,10 @@ p {
 }
 #sm3 {
     background-color: var(--seafoam);
+}
+
+.super-cool {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
