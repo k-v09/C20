@@ -1,0 +1,13 @@
+@media only screen and (max-width: 650px) {
+    .xtran {
+        width: auto;
+        margin: 0;
+    }
+    .homeMain {
+        width: auto;
+        margin: 0;
+    }
+    #sm3 .right {
+        float: none;
+    }
+}

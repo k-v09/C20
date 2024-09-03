@@ -8,6 +8,7 @@ import Projects from './pages/Projects';
 // import Contact from './pages/Contact';
 import Resume from './pages/Resume';
 import './css/global.css';
+import './css/phones.css'
 
 const App = () => (
   <Router>
