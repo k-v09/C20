@@ -95,7 +95,7 @@ label{
 input, textarea {
     color: var(--navy);
     background-color: var(--cream);
-    border: 2px solid gray;
+    border: 2px solid var(--bluegreen);
     border-radius: 4px;
     font-size: 18px;
 }
@@ -255,4 +255,43 @@ p {
 
 .rest {
     display: flex;
+}
+
+.min-h {
+    background-color: var(--cream);
+    border-radius: 15px;
+    border: 10px double var(--sky);
+}
+.good-head {
+    text-align: center;
+    color: var(--navy);
+    font-weight: bold;
+}
+.small-p {
+    color: var(--dsage);
+    font-size: x-large;
+    padding: 20px;
+    text-align: center;
+}
+.conforming {
+    background-color: var(--lmint);
+    box-shadow: inset;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.super-cool-form {
+    padding: 15px;
+    border-color: var(--bluegreen);
+}
+.labelerz {
+    background-color: var(--lmint);
+}
+.namerz {
+    border-color: var(--navy);
+    color: var(--dsage);
+    background-color: var(--cream);
+}
+.hahaButt {
+    background-color: var(--navy);
+    color: var(--cream)
 }

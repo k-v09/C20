@@ -1,13 +1,19 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon"  href="/laptop.png" />
+    <link rel="icon" type="image/png" href="/laptop.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio website of Noah Sehman" />
     <title>Noah Sehman</title>
   </head>
-  <body style="color: #fefae0;">
-    <div id="root" style="color: #fefae0;"></div>
+  <body style="background-color: #fefae0;">
+    <div id="root"></div>
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <textarea name="message"></textarea>
+    </form>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
