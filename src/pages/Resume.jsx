@@ -1,9 +1,10 @@
 import React from 'react';
 import '../css/global.css';
 
-const Resume = () => (<>
-  <img src="/drainer.jpeg" alt="Drainer" style={{borderBottomLeftRadius: "0px", borderBottomRightRadius: "0px"}}/>
-  <section style={{marginTop: '0px', borderTopRightRadius: '0px', borderTopLeftRadius: '0px', width: 'fit-content'}}>
+
+const Resume = () => (<><div id='rest' style={{display: 'flex', flexDirection: 'column'}}>
+  <img src="/drainer.jpeg" alt="drainer" id="drainer" style={{borderBottomLeftRadius: "0px", borderBottomRightRadius: "0px"}}/>
+  <section id="resumeContainer" style={{marginTop: '0px', borderTopRightRadius: '0px', borderTopLeftRadius: '0px', width: 'auto'}}>
     <ul className='resSkills'>
       <li>Team Player</li>
       <li>Critical Thinker</li>
@@ -15,6 +16,6 @@ const Resume = () => (<>
     </ul>
     <a href="/res.pdf" download style={{paddingLeft: '45%'}}>Download Resume</a>
   </section>
-  </>);
+  </div></>);
 
 export default Resume;
