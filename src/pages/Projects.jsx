@@ -3,6 +3,20 @@ import Project from '../components/Project';
 
 const projects = [
   {
+    title: 'Ivy Files',
+    deployedLink: 'https://github.com/k-v09/ivy-filer',
+    repoLink: 'https://github.com/k-v09/ivy-filer',
+    description: 'This project provides a Java implementation for creating and reading custom binary files with the .ivy extension. These .ivy files store frequency information such as the number of overtones, the amplitude of each harmonic, and references to other .ivy files. This format can be useful in sound synthesis or analysis applications. Future development will add enhanced arror handling, an extended file format, file compression, versioning, and validation tools.',
+    image: '/ivyFiler.png'
+  },
+  {
+    title: 'Too Many Synths',
+    deployedLink: 'https://github.com/k-v09/Jen-R-8-R',
+    repoLink: 'https://github.com/k-v09/Jen-R-8-R',
+    description: 'Music and technology have always been a passion of mine, and I\'ve channeled that into a variety of synth projects, each exploring different aspects of sound design, hardware, and software integration. Here\'s a snapshot of what I\'m working on -- Modular Synth: A fully customizable modular synthesizer built from the ground up, where each module contributes to a wide range of sonic possibilities. I\’m focusing on experimenting with different oscillators, filters, and sequencers to create a unique soundscape. Software Synth (Unix Pipes): Combining my love for programming with sound, I’m building a software synth that uses Unix pipes to facilitate communication between Go and Python. This project allows for a flexible architecture that can process sound in real-time, with room for endless tweaking. Piano-Controller Synth: This hardware project involves repurposing an old piano, turning its keys into a custom controller for synthesizing sound. By bridging the gap between analog tactile input and digital sound manipulation, I’m bringing a fresh take to classic music hardware. TI-84 Synth: A more experimental approach, I\’m using a TI-84 calculator to control an oscillator and effects module. This project blends math and music, exploring how limited hardware can still create complex and engaging sound textures.\nEach of these projects represents my commitment to pushing the boundaries of sound synthesis through both hardware and software, blending technology and creativity in new and exciting ways.',
+    image: '/machine.gif'
+  },
+  {
     title: 'Horse Power',
     deployedLink: 'https://horse-power.netlify.app/',
     repoLink: 'https://github.com/k-v09/Horse-Power',
@@ -35,6 +49,18 @@ const projects = [
 const Projects = () => (
   <section>
     <div className="project">
+      <h3>Instantaneous Interaction</h3>
+      <img src="page-0.jpg" alt="Instanteous Interaction"  id='ii'/>
+      <p>
+        For my senior research project, I branched out from theoretical mathematics to theoretical 
+        physics. Though I have never been formally trained in relativity theory or quantum mechanics, 
+        I was determined to tackle a subject that not only falls into those fields, but also pushed 
+        the limits of what was achievable on my own. Attached here is the shortened version of my 
+        paper, "Instantaneous Interaction With Time."<br/><br/>
+      <a href="/Instantaneous Interaction With Time copy.pdf">View Paper</a> | <a href="/Instantaneous Interaction With Time copy.pdf" download>Download Paper</a>
+      </p>
+    </div>
+    <div className="project">
       <h3>Geometric Fourier Transform</h3>
       <img src="ReverseFourier.png" alt="Reverse Fourier Formula"  id='gft'/>
       <p>
@@ -46,18 +72,6 @@ const Projects = () => (
         understanding of how sound works to be given to those who otherwise wouldn't be able to do 
         so.<br/><br/>
       <a>Paper on This Project in the Works</a>
-      </p>
-    </div>
-    <div className="project">
-      <h3>Instantaneous Interaction</h3>
-      <img src="page-0.jpg" alt="Instanteous Interaction"  id='ii'/>
-      <p>
-        For my senior research project, I branched out from theoretical mathematics to theoretical 
-        physics. Though I have never been formally trained in relativity theory or quantum mechanics, 
-        I was determined to tackle a subject that not only falls into those fields, but also pushed 
-        the limits of what was achievable on my own. Attached here is the shortened version of my 
-        paper, "Instantaneous Interaction With Time."<br/><br/>
-      <a href="/Instantaneous Interaction With Time copy.pdf">View Paper</a> | <a href="/Instantaneous Interaction With Time copy.pdf" download>Download Paper</a>
       </p>
     </div>
     {projects.map((project, index) => (

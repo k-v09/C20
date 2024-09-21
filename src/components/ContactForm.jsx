@@ -40,6 +40,7 @@ const ContactForm = () => {
       }
     } catch (error) {
       setSubmitMessage('Oops! There was a problem submitting your form. Please try again.');
+      console.log(error)
     } finally {
       setIsSubmitting(false);
     }
